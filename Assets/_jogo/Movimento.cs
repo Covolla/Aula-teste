@@ -21,12 +21,12 @@ public class Movimento : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.Getkey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             MoveEsquerda();
         }
 
-        if (Input.Getkey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             MoveDireita();
         }
